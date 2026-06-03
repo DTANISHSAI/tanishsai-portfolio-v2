@@ -6,17 +6,17 @@
 
     align-items: center;
 
-    padding: 6rem 8rem;
+    padding: 6rem 6rem;
     margin: 9px;
     overflow: hidden;
     border-radius: 38px;
-    background: #ece8eb;
+    background: #dad7d9;
 
     gap: 6rem;
 }
 
 .chapter-image img{
-    width: 700px;
+    width: 550px;
     height: 550px;
 
     object-fit: cover;
@@ -85,7 +85,7 @@
 }
 
 .chapter-description{
-    margin-top: 50px;
+    margin-top: 30px;
     /* text-align: justify; */
     font-family: "Satoshi", sans-serif;
     font-size: 2rem;

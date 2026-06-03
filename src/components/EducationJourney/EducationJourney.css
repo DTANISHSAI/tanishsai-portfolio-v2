@@ -58,10 +58,10 @@
     position: absolute;
     z-index: 2;
 
-    background: rgba(8, 18, 45, 0.45);
+    background: rgba(80, 79, 79, 0.266);
 
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(8px);
 
     border: 1px solid rgba(255,255,255,0.12);
 
@@ -71,7 +71,7 @@
 
     min-width: 280px;
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     box-shadow:
         0 12px 40px rgba(0,0,0,0.25),
@@ -82,7 +82,7 @@
     overflow: hidden;
 }
 
-.edu-card::before{
+/* .edu-card::before{
     content:"";
 
     position:absolute;
@@ -114,7 +114,7 @@
     background: rgba(0,0,0,0.35);
 
     z-index:1;
-}
+} */
 
 .edu-card:hover{
     transform: translateY(-12px) scale(1.02);
@@ -163,28 +163,28 @@
 ========================= */
 
 .card-btech{
-    top: 10%;
+    top: 9%;
 
-    left: 18%;
+    left: 12%;
 }
 
 .card-10{
-    bottom: 10%;
+    bottom: 8%;
 
-    left: 25%;
+    left: 18%;
 }
 
 .card-inter{
     right: 14%;
 
-    top: 20%;
+    top: 15%;
 }
 
 /* =========================
    RESPONSIVE
 ========================= */
 
-.card-btech{
+/* .card-btech{
     animation: float1 7s ease-in-out infinite;
 }
 
@@ -194,7 +194,7 @@
 
 .card-10{
     animation: float3 7s ease-in-out infinite;
-}
+} */
 
 @keyframes float1{
     0%,100%{ transform:translateY(0); }
