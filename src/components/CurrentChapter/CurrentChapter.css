@@ -1,0 +1,103 @@
+.chapter{
+    min-height: 60vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    padding: 6rem 6rem;
+    margin: 9px;
+    overflow: hidden;
+    border-radius: 38px;
+    background: #ece8eb;
+
+    gap: 6rem;
+}
+
+.chapter-image img{
+    width: 700px;
+    height: 550px;
+
+    object-fit: cover;
+
+    border-radius: 38px;
+}
+
+.chapter-content{
+    max-width: 710px;
+}
+
+.chapter-label{
+    font-size: 0.8rem;
+     font-family: "Satoshi", sans-serif;
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    color: #777;
+
+    font-weight: 600;
+}
+
+.chapter-title{
+    font-family: "Satoshi", sans-serif;
+
+    font-size: 4.0rem;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+
+    line-height: 0.95;
+
+    letter-spacing: -3px;
+
+    max-width: 850px;
+}
+
+.chapter-title::after{
+    content:"";
+
+    display:block;
+
+    width:610px;
+
+    height:5px;
+
+    background:#2196f3;
+
+    margin-top:18px;
+
+    border-radius:999px;
+}
+
+.chapter.show .chapter-title::after{
+    width:120px;
+}
+
+.chapter-location{
+    margin-top: 16px;
+     font-family: "Satoshi", sans-serif;
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    color: #666;
+}
+
+.chapter-description{
+    margin-top: 50px;
+    /* text-align: justify; */
+    font-family: "Satoshi", sans-serif;
+    align-content: flex-end;
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    line-height: 1.05;
+
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color: #111;
+
+    max-width: 4000px;
+}

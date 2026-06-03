@@ -24,8 +24,6 @@ function Hero() {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
 
                 <h1 className="hero-title">
                     Build.
@@ -38,7 +36,8 @@ function Hero() {
                 <br />
                 <br />
                 <br />
-
+                <br />
+                <br />
                 <p className="hero-description">
                     Full Stack Developer & AI/ML Enthusiast creating
                     scalable web applications, intelligent systems,
