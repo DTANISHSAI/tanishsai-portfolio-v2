@@ -6,6 +6,8 @@ function EducationJourney() {
 
             <div className="journey-heading">
                 <h2>
+                    <br />
+                    
                     <span>A portfolio</span>
 
                     <span className="line-2">
